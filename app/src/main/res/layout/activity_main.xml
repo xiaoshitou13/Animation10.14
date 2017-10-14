@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.bwie.com.animation1014.MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="渐变"
+       android:id="@+id/jb"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="平移"
+        android:id="@+id/py"
+        android:layout_below="@+id/jb"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缩放"
+        android:id="@+id/sf"
+        android:layout_below="@+id/py"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="旋转"
+        android:id="@+id/xz"
+        android:layout_below="@+id/sf"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="集合"
+        android:id="@+id/jh"
+        android:layout_below="@+id/xz"/>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/jh"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
